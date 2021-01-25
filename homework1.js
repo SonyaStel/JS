@@ -12,10 +12,11 @@ console.log(note);
 var myCar = {
     make: "Mazda",
     model: "RX5" ,
-    year: 2015,
+    var year: 2015,
 }
 var myCarColor;
 var mileage = null;
+console.log(typeof year);
 
 
 // task 5
