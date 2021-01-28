@@ -62,8 +62,12 @@ let secondSide = prompt("Enter the lenght of the second side", "");
 let thirdSide = prompt("Enter the lenght of the third side", "");
 
 if (thirdSide * thirdSide == oneSide*oneSide + secondSide*secondSide){
-    console.log("Triangle is right");
+    console.log("Triangle is right" || oneSide*secondSide*thirdSide);
+} else if(thirdSide * thirdSide != oneSide*oneSide + secondSide*secondSide) {
+    console.log("Triangle is NOT right");
 }
+console.log(oneSide*secondSide*thirdSide);
+
 
 
 //task 7
